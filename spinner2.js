@@ -5,5 +5,7 @@ const spin = function(data) {
   count = count + 1
   setTimeout(() => process.stdout.write(`\r ${char}  `), count*1000) 
 }
+
 }
-spin(|/-|)
+let count = 0
+spin('|/-|/-|/-')
